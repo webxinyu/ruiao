@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "name": "减速机",
+    "img":"http://localhost:3000/data/img/product/icon.png",
+    "list": [
+      {"id":0,"name": "NMRV030减速机","img": "http://localhost:3000/data/img/product/product01.png"},
+      {"id":1,"name": "NMRV040减速机","img": "http://localhost:3000/data/img/product/product01.png"},
+      {"id":2,"name": "NMRV050减速机","img": "http://localhost:3000/data/img/product/product01.png"},
+      {"id":3,"name": "NMRV060减速机","img": "http://localhost:3000/data/img/product/product01.png"},
+      {"id":4,"name": "NMRV070减速机","img": "http://localhost:3000/data/img/product/product01.png"},
+      {"id":5,"name": "NMRV080减速机","img": "http://localhost:3000/data/img/product/product01.png"},
+      {"id":6,"name": "NMRV100减速机","img": "http://localhost:3000/data/img/product/product01.png"}
+    ]
+  },
+  {
+    "id": 1,
+    "name": "变速器",
+    "img":"http://localhost:3000/data/img/product/icon.png",
+    "list": [
+      {"id":0,"name": "双涡轮变速器","img":"http://localhost:3000/data/img/product/product01.png"},
+      {"id":1,"name": "无极变速器","img":"http://localhost:3000/data/img/product/product01.png"},
+      {"id":2,"name": "专用轮变速器","img":"http://localhost:3000/data/img/product/product01.png"},
+      {"id":3,"name": "UDL系列无极变速器","img":"http://localhost:3000/data/img/product/product01.png"}
+    ]
+  },
+  {
+    "id": 2,
+    "name":"开窗机",
+    "img":"http://localhost:3000/data/img/product/icon.png",
+    "list": [
+      {"id":0,"name": "通风机电开窗机","img": "http://localhost:3000/data/img/product/product01.png"},
+      {"id":1,"name": "专业链条开窗器","img": "http://localhost:3000/data/img/product/product01.png"},
+      {"id":2,"name": "手摇开窗机","img": "http://localhost:3000/data/img/product/product01.png"},
+      {"id":3,"name": "电动开窗机","img": "http://localhost:3000/data/img/product/product01.png"}
+    ]
+  }
+]

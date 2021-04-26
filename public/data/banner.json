@@ -1,0 +1,10 @@
+{
+  "banners": [
+    "http://localhost:3000/data/img/banner.png",
+    "http://localhost:3000/data/img/banner02.png"
+  ],
+  "productBanners": [
+    "http://localhost:3000/data/img/productBanner01.png",
+    "http://localhost:3000/data/img/productBanner02.png"
+  ]
+}

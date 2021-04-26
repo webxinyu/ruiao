@@ -1,0 +1,46 @@
+.typePage {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 17px;
+    color: #fff;
+}
+.typePage>ul {
+    height: 72px;
+    display:flex;
+    border-bottom: 1px #676767 solid;
+}
+.typePage>ul li {
+    font-size: 16px;
+    padding: 0 40px;
+    line-height: 72px;
+}
+.typePage .serve {
+    display: flex;
+    position:relative;
+}
+.typePage .serve>p {
+    line-height: 80px;
+    font-size:16px;
+    height: 80px;
+    padding-left: 30px;
+}
+.typePage .serve>button {
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    color: #fff;
+    cursor: pointer;
+}
+.typePage .serve>button:first-of-type {
+    background-color: #0c4da2;
+    right: 175px;
+
+}
+.typePage .serve>button:last-of-type {
+    background-color: #ff9933;
+    right: 30px;
+}

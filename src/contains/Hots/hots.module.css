@@ -1,0 +1,39 @@
+.hotsCon {
+    width: 1200px;
+    background:#fff;
+    margin: 0 auto;
+}
+.hots {
+    height: 155px;
+}
+.hots h1 {
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 46px;
+    font-size:32px;
+    color: #0c4da2;
+    position: relative;
+}
+.hots h1 span {
+    display: block;
+    height: 6px;
+    width: 30px;
+    background:#0c4da2;
+    position: absolute;
+}
+.hots h1 span:first-of-type {
+    left: 0;
+    top: 50%;
+    margin-top: -3px;
+}
+.hots h1 span:last-of-type {
+    right: 0;
+    top: 50%;
+    margin-top: -3px;
+}
+.hots h6 {
+    font-size:16px;
+    font-weight: normal;
+    color:#838383;
+    margin-top: 17px;
+}

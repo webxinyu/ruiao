@@ -1,0 +1,80 @@
+.nav {          /* 产品分类 */
+    height: 142px;
+    position: relative;
+}
+.nav ul {
+    height: 160px;
+    position: absolute;
+    top: -80px;
+    display:flex;
+    left: 50%;
+    margin-left: -240px;
+}
+.nav ul li {
+    height: 160px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+.nav ul li:nth-of-type(n) {
+    background-color: #517fce;
+}
+.nav ul li:nth-of-type(2n+1) {
+    background-color: #2b56a0;
+}
+.nav ul li .imgCon {
+    height: 100px;
+    display:flex;
+    align-items: center;
+    padding-top: 15px;
+}
+.nav ul li .imgCon img {
+    display: inline-block;
+    margin: 0 auto;
+}
+.nav ul li>h5 {
+    height: 45px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: normal;
+}
+.title {            /* 产品展示 */
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    font-size:42px;
+    color: #3a3f4b;
+}
+.line {
+    width: 147px;
+    height: 4px;
+    background-color: #00a5ff;
+    margin: 0 auto;
+}
+.productList {
+    width: 1200px;
+    margin: 120px auto 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.productList li {
+    width: 380px;
+    margin-left: 20px;
+    margin-bottom: 23px;
+    cursor: pointer;
+}
+.productList li img {
+    display: block;
+    width: 380px;
+    height: 275px;
+}
+.productList li h5 {
+    height: 76px;
+    line-height: 76px;
+    font-size: 18px;
+    color: #999999;
+    background-color: #f4f5f9;
+    font-weight: normal;
+}

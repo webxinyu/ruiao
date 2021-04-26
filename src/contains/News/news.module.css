@@ -1,0 +1,104 @@
+html,body {
+    background-color: #f8f8f8;
+}
+.banner {
+    width: 100%;
+    height: 300px;
+}
+.banner img {
+    display: block;
+    margin: 0 auto;
+}
+.typePage {     /* 新闻分类和新闻列表 */
+    width: 1200px;
+    margin: 30px auto 30px;
+    overflow: hidden;
+}
+.typePage .nav {
+    float: left;
+    width: 260px;
+    background-color: #fff;
+}
+.typePage .nav .titleCon {
+    height: 110px;
+    position: relative;
+}
+.typePage .nav .titleCon p {
+    height: 64px;
+    width: 100%;
+    background-color: #424242;
+}
+.typePage .nav .titleCon .title {
+    width: 180px;
+    position: absolute;
+    top: 24px;
+    left: 50%;
+    margin-left: -90px;
+    color: #fff;
+}
+.typePage .nav .titleCon .title h2 {
+    background-color: #ff7701;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+}
+.typePage .nav .titleCon .title h3 {
+    background-color: #ff9234;
+    height:28px;
+    line-height: 28px;
+}
+.typePage .nav ul li {      /* 新闻分类列表 */
+    height: 46px;
+    line-height: 46px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    cursor: pointer;
+}
+.typePage .nav ul li:last-of-type {
+    border-bottom:none;
+}
+.newsList {     /* 新闻列表和简介 */
+    width: 900px;
+    float: right;
+    background-color: #fff;
+}
+.newsList li {
+    height: 110px;
+    padding: 25px 22px;
+    overflow: hidden;
+}
+.newsList li .newListImg {
+    float: left;
+    width: 160px;
+    height: 110px;
+}
+.newsList li .newListImg img {
+    width: 100%;
+    display: block;
+}
+.newsList li .newsListContent {
+    width: 676px;
+    float: right;
+    text-align: left;
+    cursor: pointer;
+}
+.newsList li .newsListContent h4 {      /* 新闻列表标题 */
+    height: 44px;
+    line-height: 44px;
+    font-size: 17px;
+    font-weight: normal;
+}
+.newsList li .newsListContent p {
+    line-height: 21px;
+    height: 42px;
+    overflow: hidden;
+    font-size:14px;
+    color: #999;
+    text-indent:2em;
+}
+.newsList li .newsListContent time {
+    font-size: 14px;
+    color: #999;
+    height: 24px;
+    line-height: 24px;
+}

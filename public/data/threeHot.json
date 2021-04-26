@@ -1,0 +1,17 @@
+[
+  {
+    "img": "http://localhost:3000/data/img/threeTot01.png",
+    "title": "轴承",
+    "icon": "http://localhost:3000/data/img/arrow.png"
+  },
+  {
+    "img": "http://localhost:3000/data/img/threeTot02.png",
+    "title": "减速机",
+    "icon": "http://localhost:3000/data/img/arrow.png"
+  },
+  {
+    "img": "http://localhost:3000/data/img/threeTot03.png",
+    "title": "手摇快窗机",
+    "icon": "http://localhost:3000/data/img/arrow.png"
+  }
+]

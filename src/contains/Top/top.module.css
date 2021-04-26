@@ -1,0 +1,23 @@
+.topContainer {
+    height: 32px;
+    background:#282c34;
+}
+.top {
+    height: 32px;
+    line-height: 32px;
+    width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+    font-family: "SourceHanSansCN";
+    clear: both;
+}
+.top>h5 {
+    font-weight: normal;
+    font-size: 14px;
+    float: left;
+}
+.top>p {
+    font-size: 14px;
+    float: right;
+    font-weight: normal;
+}

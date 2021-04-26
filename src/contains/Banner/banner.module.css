@@ -1,0 +1,21 @@
+.typePage {
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.typePage ul {
+    height: 700px;
+    width: 1920px;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    overflow: hidden;
+}
+.typePage ul li {
+    height: 700px;
+    width: 1920px;
+}
+.typePage ul li img {
+    display: block;
+}

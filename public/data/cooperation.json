@@ -1,0 +1,8 @@
+{
+  "img": "http://localhost:3000/data/img/cooperation.png",
+  "title": "雄厚技术力量，精良工艺，品质保障，急您所需",
+  "purposeList": ["专业人员指导","进口品质，值得信赖","全方位的售后服务"],
+  "telNumber": "8888-88888888",
+  "bg": "http://localhost:3000/data/img/bg.png",
+  "tick": "http://localhost:3000/data/img/tick.png"
+}

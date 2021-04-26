@@ -1,0 +1,20 @@
+.home {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.banner {
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    width: 3840px;
+}
+.Banner img {
+    height: 100%;
+}
+/* 产品标题列表 */
+.productCon {
+    float: left;
+    width: 269px;
+    height: 530px;
+}

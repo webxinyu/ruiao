@@ -1,0 +1,47 @@
+.content {
+    height: 220px;
+    position: relative;
+    margin-left: 512px;
+    text-align:left;
+}
+.content h2 {
+    height: 86px;
+    line-height:86px;
+    font-size:30px;
+}
+.content ul {
+    display:flex;
+}
+.content ul li {
+    height: 40px;
+    lien-height:40px;
+    font-size:16px;
+    padding-left: 34px;
+    margin-right: 24px;
+}
+.content h3 {
+    font-size:24px;
+    height:94px;
+    line-height: 94px;
+    font-weight: normal;
+}
+.content button {
+    border: none;
+    outline: none;
+    position: absolute;
+    width: 170px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    background-color: #ff9933;
+    bottom: 25px;
+    right: 170px;
+    color: #fff;
+    cursor: pointer;
+}
+.imgCon {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

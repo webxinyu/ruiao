@@ -1,0 +1,41 @@
+.typePage {
+
+}
+/* 标题 */
+.typePage>h1 {
+    height: 83px;
+    line-height:83px;
+    font-size: 32px;
+    color: #0c4da2;
+    text-align: left;
+}
+/* 横杠 */
+.typePage>span {
+    display: block;
+    background-color: #0c4da2;
+    height: 4px;
+    width: 30px;
+    margin-top: 7px;
+}
+/* 图片 */
+.content {
+    height: 180px;
+    padding: 23px 0;
+    overflow: hidden;
+}
+.content>img {
+    display: block;
+    width: 100%;
+}
+/* 内容描述 */
+.typePage>article {
+    margin: 20px 0;
+    text-align: left;
+    line-height:36px;
+    font-size: 16px;
+    overflow: hidden;
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:4;
+    font-family:"SourceHanSansCN";
+}

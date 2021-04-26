@@ -1,0 +1,110 @@
+.typePage {
+    width: 913px;
+    height: 320px;
+    position: relative;
+}
+.toCenter {         /* 中间轮播简介内容部分 */
+    width: 850px;
+    height: 320px;
+    padding: 0px 33px 0px 30px;
+    overflow: hidden;
+}
+.toCenter ul {
+    width: 100%;
+    height: 100%;
+}
+.toCenter ul li {
+    height: 100%;
+    width: 100%;
+    opacity:0;
+    display:none;
+}
+/* 动画代码 */
+@keyframes showRo {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+/* 显示当前轮播的内容 */
+.toCenter ul li.showRotation {
+    opacity: 1;
+    display:block;
+    animation-name: showRo;
+    animation-duration: 1s;
+}
+.rotationImg {          /* 图片 */
+    width: 405px;
+    height: 260px;
+    padding: 30px 0px;
+    float: left;
+}
+.rotationImg>img {
+    width: 100%;
+}
+.rotationRight {
+    float: right;
+    width: 430px;
+    height: 260px;
+    padding: 30px 0px;
+    text-align: left;
+}
+.rotationRight h2 {         /* 标题 */
+    font-size: 18px;
+    font-weight: normal;
+    height: 34px;
+    line-height: 34px;
+}
+.rotationRight>p {
+    width: 30px;
+    height: 4px;
+    background-color:#0c4da2;
+    margin-top: 11px;
+}
+.rotationRight>article {        /* 简介 */
+    font-size: 16px;
+    color: #838383;
+    line-height: 30px;
+    margin-top: 20px;
+    height: 120px;
+    width: 420px;
+    overflow: hidden;
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:4;
+}
+.rotationRight>button {
+    width: 170px;
+    height: 48px;
+    text-align: center;
+    color: #fff;
+    line-height: 48px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    background-color: #ff9933;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.typePage>span {        /* 控制轮播块的左右移动的按钮 */
+    width: 22px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    display: block;
+    background-color: #a4a4a4;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.typePage .toLeft {     /* 向左轮播按钮 */
+    left: 0;
+    top: 50%;
+    margin-top: -25px;
+}
+.typePage .toRight {       /* 向右轮播按钮 */
+    right: 0;
+    top: 50%;
+    margin-top: -25px;
+}
+
